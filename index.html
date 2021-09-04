@@ -1,157 +1,99 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-    <title>Copy cat</title>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Windows 11</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Copy cat</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-             <ul class="navbar-nav mr-auto">
-                <li class="nav-item inactive">
-                    <a class="nav-link" href="/Kelvinator-by-bootstrap/index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="/Kelvinator-by-bootstrap/about.html">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        More
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/Kelvinator-by-bootstrap/gallery.html">Gallery</a>
-                        <a class="dropdown-item" href="/Kelvinator-by-bootstrap/support.html">Support</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="/Kelvinator-by-bootstrap/write.html">Write for us</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="/Kelvinator-by-bootstrap/index.html">Home</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/Kelvinator-by-bootstrap/contact.html" tabindex="-1" aria-disabled="true">Contact Us</a>
-                </li>
+      <nav>
+          <div class="logop rounded-circle">
+              <a href="#"><img src="logo.jpg" height="70px"></a>
+          </div>
+        <div class="navbar">
+          <i class='bx bx-menu'></i>
+          <div class="logo"><a href="#">Wallpaper Hub</a></div>
+          <div class="nav-links">
+            <div class="sidebar-logo">
+              <span class="logo-name">Wallpaper Hub</span>
+              <i class='bx bx-x' ></i>
+            </div>
+            <ul class="links">
+              <li><a href="home.html">HOME</a></li>
+              <li>
+                <a href="#">GAME</a>
+                <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                <ul class="htmlCss-sub-menu sub-menu">
+                  <li><a href="design.html">Pubg (Bgmi)</a></li>
+                  <li><a href="loginform.html">Free Fire</a></li>
+                  <li><a href="card.html">Fortnite</a></li>
+                  <li class="more">
+                    <span><a href="#">More</a>
+                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                  </span>
+                    <ul class="more-sub-menu sub-menu">
+                      <li><a href="#">COD</a></li>
+                      <li><a href="#">Minecraft</a></li>
+                      <li><a href="#">More . .</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">ANIMALS</a>
+                <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                <ul class="js-sub-menu sub-menu">
+                  <li><a href="#">Dogs</a></li>
+                  <li><a href="#">Cats</a></li>
+                  <li><a href="#">Wild Animals</a></li>
+                  <li><a href="#">More . .</a></li>
+                </ul>
+              </li>
+              <li><a href="#">SCI - FI</a>
+                <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                <ul class="js-sub-menu sub-menu">
+                  <li><a href="#">Space</a></li>
+                  <li><a href="#">Earth</a></li>
+                  <li><a href="#">Tron Age</a></li>
+                  <li><a href="#">More . .</a></li>
+                </ul>
+              </li>
+              <li><a href="#">TV MOVIES</a>
+                <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                <ul class="js-sub-menu sub-menu">
+                  <li><a href="#">Avengers</a></li>
+                  <li><a href="#">Source Code</a></li>
+                  <li><a href="#">Gravity</a></li>
+                  <li><a href="#">More . .</a></li>
+                </ul>
+              </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-            <div class="mx-2">
-
-                <button class="btn btn-outline-danger" data-toggle="modal" data-target="#loginModal">Login</button>
-                <button class="btn btn-outline-danger" data-toggle="modal" data-target="#signupModal">SignUp</button>
-
+          </div>
+            <div class="wrapper">
+              <div class="search-input">
+                <a href="" target="_blank" hidden></a>
+                <input type="text" placeholder="Type to search..">
+                <div class="autocom-box">
+                  <!-- here list are inserted from javascript -->
+                </div>
+                <div class="icon"><i class="fas fa-search"></i></div>
+              </div>
             </div>
+             <script src="suggestions.js"></script> 
+             <script src="script.js"></script> 
+          </div>
         </div>
-    </nav>
+      </nav>
+      <script src="script.js"></script>
+      <!---Page Coding-->
+     <div class="txt">
+       Game Wallpapers
+     </div>
 
-
-    <!-- loginModal -->
-    <div class="modal fade" id="loginModal" tabindex="-1" role="dailog" aria-labelledby="loginModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="loginModalLabel">Login To Kelvinator Account</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Login</button>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <!-- signupModal -->
-    <div class="modal fade" id="signupModal" tabindex="-1" role="dailog" aria-labelledby="signupModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="signupModalLabel">Create a Kelvinator Account</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Full Name</label>
-                            <input type="name" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Alternate Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1"> Confirm Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                        </div>
-
-                        <button type="submit" class="btn btn-primary">Create Account</button>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
-                </div>
-            </div>
-        </div>
-    </div>
+    </body>
+    </html>    
+</html>
